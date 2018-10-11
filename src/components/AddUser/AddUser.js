@@ -4,6 +4,13 @@ import UserService from '../../services/UserService'
 
 import Modal from 'react-modal';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSave,faWindowClose } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faSave)
+library.add(faWindowClose)
+
 
 class AddUser extends Component {
     state = {
@@ -34,9 +41,13 @@ class AddUser extends Component {
                   <input name="lastName" placeholder="Last Name" className="edit-input" type="text" required/>
                   <input name="birthDate" placeholder="Date Of Birth" className="edit-input" type="date" required/>
                 </div>
-                <button type="submit" className="edit-btn">save</button>
+                <button className="save-new-user-btn" type="submit" className="edit-btn">
+                  <FontAwesomeIcon icon="save" />
+                </button>
+                <button className="cancel-new-user-btn" onClick={this.props.handleCloseModal}>
+                  <FontAwesomeIcon icon="window-close" />
+                </button>
               </form>
-              <button onClick={this.props.handleCloseModal}>Close Modal</button>
             </Modal>
           </section>
         );
