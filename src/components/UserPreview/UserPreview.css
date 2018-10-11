@@ -1,0 +1,34 @@
+.user-preview{
+    margin: 0.5rem;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.details-container{
+}
+
+.user-preview:hover{
+    background-color: #354661;
+}
+
+.preview-avatar{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+}
+
+.delete-btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 2rem;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    color: rgb(212, 211, 211);
+    transition: all 0.2s;
+}
+
+.delete-btn:hover{
+    color: black
+}

@@ -1,0 +1,23 @@
+.user-list{
+    
+}
+
+.control-panel{
+    width: 100%;
+}
+
+.add-user-btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 2rem;
+    background-color: black;
+    cursor: pointer;
+    color: rgb(212, 211, 211);
+    transition: all 0.2s;
+}
+
+.add-user-btn:hover{
+    background-color: rgb(53, 48, 48);
+}
