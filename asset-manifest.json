@@ -1,14 +1,14 @@
 {
-  "main.css": "/galsinai128/user-manager.git/static/css/main.20b780f5.chunk.css",
-  "main.js": "/galsinai128/user-manager.git/static/js/main.5b1fac30.chunk.js",
-  "main.js.map": "/galsinai128/user-manager.git/static/js/main.5b1fac30.chunk.js.map",
-  "static/js/1.729fbd4d.chunk.js": "/galsinai128/user-manager.git/static/js/1.729fbd4d.chunk.js",
-  "static/js/1.729fbd4d.chunk.js.map": "/galsinai128/user-manager.git/static/js/1.729fbd4d.chunk.js.map",
-  "runtime~main.js": "/galsinai128/user-manager.git/static/js/runtime~main.1a1af60e.js",
-  "runtime~main.js.map": "/galsinai128/user-manager.git/static/js/runtime~main.1a1af60e.js.map",
-  "static/media/logo.svg": "/galsinai128/user-manager.git/static/media/logo.5d5d9eef.svg",
-  "static/css/main.20b780f5.chunk.css.map": "/galsinai128/user-manager.git/static/css/main.20b780f5.chunk.css.map",
-  "index.html": "/galsinai128/user-manager.git/index.html",
-  "precache-manifest.1e3edff84b4842749a47b34c5cec5bc4.js": "/galsinai128/user-manager.git/precache-manifest.1e3edff84b4842749a47b34c5cec5bc4.js",
-  "service-worker.js": "/galsinai128/user-manager.git/service-worker.js"
+  "main.css": "/user-manager/static/css/main.20b780f5.chunk.css",
+  "main.js": "/user-manager/static/js/main.a1cbee1f.chunk.js",
+  "main.js.map": "/user-manager/static/js/main.a1cbee1f.chunk.js.map",
+  "static/js/1.729fbd4d.chunk.js": "/user-manager/static/js/1.729fbd4d.chunk.js",
+  "static/js/1.729fbd4d.chunk.js.map": "/user-manager/static/js/1.729fbd4d.chunk.js.map",
+  "runtime~main.js": "/user-manager/static/js/runtime~main.184c76b8.js",
+  "runtime~main.js.map": "/user-manager/static/js/runtime~main.184c76b8.js.map",
+  "static/media/logo.svg": "/user-manager/static/media/logo.5d5d9eef.svg",
+  "static/css/main.20b780f5.chunk.css.map": "/user-manager/static/css/main.20b780f5.chunk.css.map",
+  "index.html": "/user-manager/index.html",
+  "precache-manifest.d8c30f38c1cc1f144a460283aedde818.js": "/user-manager/precache-manifest.d8c30f38c1cc1f144a460283aedde818.js",
+  "service-worker.js": "/user-manager/service-worker.js"
 }
