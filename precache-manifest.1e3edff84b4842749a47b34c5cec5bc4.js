@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/galsinai128/user-manager.git/static/css/main.20b780f5.chunk.css"
   },
   {
-    "revision": "a1cf02eaf3b6383e3f3864c9df535285",
+    "revision": "4e3a8383092c048a8a567fadbe5ff894",
     "url": "/galsinai128/user-manager.git/index.html"
   }
 ];
