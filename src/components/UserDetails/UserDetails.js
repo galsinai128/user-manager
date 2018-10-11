@@ -7,7 +7,7 @@ import UserService from '../../services/UserService'
         if (this.props.user){
             return (
               <section className="user-details">
-                <h1 className="details-title">Full Details</h1>
+                <h1 className="section-title">Full Details</h1>
                 <div className="flex">
                   <img src={this.props.user.profileImage} alt="" className="detail-avatar"/>
                   <div className="details-container">
@@ -35,7 +35,7 @@ import UserService from '../../services/UserService'
         else {
             return (
               <section className="user-list">
-                <h1>Full Details</h1>
+                <h1 className="section-title">Full Details</h1>
                 Please pick a user
               </section>
             );

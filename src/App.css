@@ -2,19 +2,39 @@ html,ul{
   padding: 0;
 }
 
+button {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  outline: none;
+}
+
+input{
+  outline: none;
+}
+
 .App{
-  color: whitesmoke;
+  color: rgb(230, 230, 230);
 }
 
 .list-container{
-  width: 30%;
-  /* height: 100vh; */
+  width: 35%;
+  min-height: 100vh;
   background-color: #4b5970;
 }
 
 .user-container{
-  width: 70%;
+  width: 65%;
+  min-height: 100vh;
   background-color: #2d3542;
+}
+
+.section-title{
+  font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 

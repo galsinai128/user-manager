@@ -17,7 +17,7 @@ class UserList extends Component {
     render() {
         return (
           <section className="user-list">
-            <h1>Users List</h1>
+            <h1 className="section-title">Users List</h1>
             <div className="control-panel flex space-around">
                 <select name="sortBy" id="sortBy" value={this.state.value} onChange={this.props.sortClicked} >
                     <option value='sortBy' disabled selected>Sort By</option>

@@ -35,19 +35,22 @@ class AddUser extends Component {
               isOpen={this.props.showModal}
               contentLabel="Minimal Modal Example"
               >
-              <form onSubmit={(e)=>this.props.addUserClicked(e)} className="edit-form flex flex-col justify-center align-center">
-                <div className="inputs-container flex flex-col space-around align-center">
+              <div className="modal-data flex flex-col align-center">
+                <h1>New User</h1>
+                <form onSubmit={(e)=>this.props.addUserClicked(e)} className="edit-form flex flex-col align-center">
                   <input name="firstName" placeholder="First Name" className="edit-input" type="text" required/>
                   <input name="lastName" placeholder="Last Name" className="edit-input" type="text" required/>
                   <input name="birthDate" placeholder="Date Of Birth" className="edit-input" type="date" required/>
-                </div>
-                <button className="save-new-user-btn" type="submit" className="edit-btn">
-                  <FontAwesomeIcon icon="save" />
-                </button>
-                <button className="cancel-new-user-btn" onClick={this.props.handleCloseModal}>
-                  <FontAwesomeIcon icon="window-close" />
-                </button>
-              </form>
+                  <div className="add-btns-container">
+                    <button className="add-btn" type="submit">
+                      <FontAwesomeIcon icon="save" />
+                    </button>
+                    <button className="add-btn" onClick={this.props.handleCloseModal}>
+                      <FontAwesomeIcon icon="window-close" />
+                    </button>
+                  </div>
+                </form>
+              </div>
             </Modal>
           </section>
         );

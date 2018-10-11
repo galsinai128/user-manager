@@ -60,6 +60,7 @@ function addUser(user) {
     user.id = idGen()
     user.profileImage = imgGen()
     users.unshift(user);
+    saveToStorage(users)
     return user;
 }
 
@@ -67,6 +68,7 @@ function deleteUser(id) {
     const index = users.findIndex(user => user.id === id)
     if (index !== -1) {
         users.splice(index, 1)
+        saveToStorage(users)
     }
 }
 
