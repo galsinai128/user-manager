@@ -1,14 +1,14 @@
 {
-  "main.css": "/user-manager/static/css/main.bd70b0d9.chunk.css",
-  "main.js": "/user-manager/static/js/main.4314aaf1.chunk.js",
-  "main.js.map": "/user-manager/static/js/main.4314aaf1.chunk.js.map",
-  "static/js/1.069ef040.chunk.js": "/user-manager/static/js/1.069ef040.chunk.js",
-  "static/js/1.069ef040.chunk.js.map": "/user-manager/static/js/1.069ef040.chunk.js.map",
+  "main.css": "/user-manager/static/css/main.03badbcd.chunk.css",
+  "main.js": "/user-manager/static/js/main.023b28d3.chunk.js",
+  "main.js.map": "/user-manager/static/js/main.023b28d3.chunk.js.map",
+  "static/js/1.8eac94da.chunk.js": "/user-manager/static/js/1.8eac94da.chunk.js",
+  "static/js/1.8eac94da.chunk.js.map": "/user-manager/static/js/1.8eac94da.chunk.js.map",
   "runtime~main.js": "/user-manager/static/js/runtime~main.184c76b8.js",
   "runtime~main.js.map": "/user-manager/static/js/runtime~main.184c76b8.js.map",
   "static/media/logo.svg": "/user-manager/static/media/logo.5d5d9eef.svg",
-  "static/css/main.bd70b0d9.chunk.css.map": "/user-manager/static/css/main.bd70b0d9.chunk.css.map",
+  "static/css/main.03badbcd.chunk.css.map": "/user-manager/static/css/main.03badbcd.chunk.css.map",
   "index.html": "/user-manager/index.html",
-  "precache-manifest.aeec2d27864a6501e2b7867f4e4770cb.js": "/user-manager/precache-manifest.aeec2d27864a6501e2b7867f4e4770cb.js",
+  "precache-manifest.80e5aa3c3c451a165e184043df26c36e.js": "/user-manager/precache-manifest.80e5aa3c3c451a165e184043df26c36e.js",
   "service-worker.js": "/user-manager/service-worker.js"
 }
