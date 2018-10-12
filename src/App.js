@@ -5,6 +5,7 @@ import UserList from './components/UserList/UserList'
 import UserDetails from './components/UserDetails/UserDetails'
 import AddUser from './components/AddUser/AddUser'
 import UserService from './services/UserService'
+import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
 class App extends Component {
   state = {
@@ -57,6 +58,7 @@ class App extends Component {
     this.setState({ showModal: false });
   }
 
+
   render() {
     return (
       <div className="App">
@@ -89,3 +91,5 @@ class App extends Component {
 }
 
 export default App;
+
+

@@ -10,6 +10,8 @@
     background-color: black;
     color: rgb(212, 211, 211);
     transition: all 0.2s;
+    width: 2rem;
+    height: 2rem;
 }
 
 .add-user-btn:hover{

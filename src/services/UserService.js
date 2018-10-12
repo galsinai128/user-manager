@@ -41,10 +41,10 @@ var defultUsers =
 
 
 
-
+//Load users from storage
 var users = loadFromStorage() || defultUsers;
 
-
+//CRUD
 function getUsers() {
     return users;
 }
