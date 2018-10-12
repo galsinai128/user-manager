@@ -41,7 +41,7 @@
   
   .ReactModal__Content--after-open {
     opacity: 1;
-    transition: opacity 250ms;
+    transition: opacity 650ms;
   }
   
   .ReactModal__Content--before-close {

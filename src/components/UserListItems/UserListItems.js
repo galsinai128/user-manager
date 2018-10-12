@@ -1,7 +1,10 @@
 import React,  { Component }  from 'react';
 import './UserListItems.css'
 import UserPreview from '../UserPreview/UserPreview'
+import { faDivide } from '@fortawesome/free-solid-svg-icons';
 
+
+import Dragula from 'react-dragula';
 
 
 
@@ -9,19 +12,29 @@ class UserListItems extends Component {
 
     render() {
         return (
-            <div>
-                {this.props.users.map(user => (
-                    <div key={user.id} onClick={()=> this.props.displayDetails(user.id)}>
+            <ul ref={this.dragulaDecorator}>
+                {this.props.users.map(user => ( 
+                    <li 
+                        key={user.id} 
+                        onClick={()=> this.props.displayDetails(user.id)}
+
+                    >
                         <UserPreview 
                             user = {user}
                             deleteClicked = {this.props.deleteClicked}
                         ></UserPreview>
-                    </div>
+                    </li>
                 ))}    
-            </div>
+            </ul>
 
         );
     }
+    dragulaDecorator = (componentBackingInstance) => {
+        if (componentBackingInstance) {
+          let options = { };
+          Dragula([componentBackingInstance], options);
+        }
+      };
 
 
    

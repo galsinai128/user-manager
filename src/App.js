@@ -10,8 +10,8 @@ import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 class App extends Component {
   state = {
       users : [],
-      userToShow : null,
-      showModal : false
+      userToShow : null, //for details component
+      showModal : false //for adding user
   };
   componentDidMount(){
       var users = [...UserService.getUsers()]
